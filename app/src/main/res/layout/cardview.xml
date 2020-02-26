@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="10dp"
+    android:paddingTop="10dp"
+
+
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#f0070253"
+
+
+
+        >
+        <TextView
+
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#b1ffffff"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:id="@+id/unme"
+            android:layout_marginStart="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:id="@+id/Ag"
+            android:layout_marginStart="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:layout_below="@+id/ume"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pas"
+            android:text="Password"
+            android:layout_below="@+id/Ag"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:layout_marginStart="20dp"
+            android:id="@+id/dis"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Distance:"
+            android:layout_below="@+id/pas"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:id="@+id/nme"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/name"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:id="@+id/ume"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/unme"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:id="@+id/Ag2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Ag"
+            android:layout_below="@+id/ume"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:textColor="#b1ffffff"
+            android:id="@+id/password"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dis"
+            android:layout_below="@+id/Ag2"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <TextView
+            android:textColor="#b1ffffff"
+            android:id="@+id/dtnce"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dis"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:textColor="#b1ffffff"
+            android:background="@drawable/button"
+            android:id="@+id/edit"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Edit"
+            android:layout_toRightOf="@+id/nme"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+
+            />
+        <Button
+            android:textColor="#b1ffffff"
+            android:background="@drawable/button"
+            android:id="@+id/delete"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Delete"
+            android:layout_toRightOf="@+id/ume"
+            android:layout_below="@+id/edit"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+
+
+
+
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

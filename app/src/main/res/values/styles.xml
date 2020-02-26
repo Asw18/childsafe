@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#da2b45af</item>
+        <item name="android:textColorHint">#b1ffffff</item>
+
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+    <!--<style name="custom.TextInputLayout" parent="TextAppearance.AppCompat" >-->
+        <!--<item name="android:textColorHint">#ffffff</item>-->
+        <!--<item name="android:textSize">14sp</item>-->
+        <!--<item name="android:colorAccent">#1532c1</item>-->
+        <!--<item name="android:colorControlNormal">#f7f9f6</item>-->
+        <!--<item name="android:colorControlActivated">#d41010</item>-->
+
+
+
+    <!--</style>-->
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+     android:background="@drawable/background"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:padding="10dp"
+    android:gravity="center"
+    tools:context=".Changepass">
+
+    <EditText
+
+        android:id="@+id/use"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:textColor="#b1ffffff"
+        android:textColorHint="#b1ffffff"
+        android:padding="10dp"
+        />
+    <EditText
+
+        android:id="@+id/pa"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textColor="#b1ffffff"
+        android:textColorHint="#b1ffffff"
+        android:padding="10dp"
+        />
+    <EditText
+
+        android:id="@+id/pa2"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:textColor="#b1ffffff"
+        android:textColorHint="#b1ffffff"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@drawable/loginbtn"
+        android:id="@+id/ch"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="CHANGE"
+        android:textColor="#8fb9115d"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+
+
+        />
+
+</LinearLayout>

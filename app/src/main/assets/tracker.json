@@ -1,0 +1,19 @@
+{
+  "status": true,
+  "data": [
+    {
+      "id": "1",
+      "name": "Prashant Dubey",
+      "user_name": "prashantdubey48@gmail.com",
+      "age": "15",
+      "distance": "50m"
+    },
+    {
+      "id": "2",
+      "name": "Puneet Balas",
+      "user_name": "puneetbalas@gmail.com",
+      "age": "12",
+      "distance": "10000m"
+    }
+  ]
+}
